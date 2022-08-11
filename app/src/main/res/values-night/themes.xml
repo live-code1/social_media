@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SocialMedia" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/dark_100</item>
+        <item name="android:navigationBarColor">@color/color_d</item>
+
+    </style>
+
+    <style name="Widget.BottomNavigationView" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textSize">@dimen/x10dp</item>
+        <item name="colorPrimary">@color/color_c</item>
+        <item name="android:textColorSecondary">@color/color_d</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:fontFamily">@font/kastelov_axiforma_book</item>
+    </style>
+
+
+    <style name="TextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/app_bg</item>
+    </style>
+
+
+    <style name="Style2" >
+        <item name="android:background">@color/dark_80</item>
+    </style>
+
+</resources>
